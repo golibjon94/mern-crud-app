@@ -39,7 +39,7 @@ export default class CreateStudent extends Component {
     console.log(`Student successfully created!`);
     console.log(`Name: ${this.state.name}`);
     console.log(`Email: ${this.state.email}`);
-    console.log(`Roll no: ${this.state.phone}`);
+    console.log(`Phone: ${this.state.phone}`);
 
     this.setState({name: '', email: '', phone: ''})
   }
